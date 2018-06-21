@@ -4,7 +4,7 @@ import "./App.css";
 import NavBar from './Components/NavBar'
 import Roles from './Components/Roles'
 
-import Users from "./pages/Profile";
+import Home from "./pages/Home";
 
 class App extends Component {
 
@@ -14,6 +14,7 @@ class App extends Component {
 
         <NavBar />
         <Roles />
+        <Home />
         {/* <Router>
           <div>
             <Switch>

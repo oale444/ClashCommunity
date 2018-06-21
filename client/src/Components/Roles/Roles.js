@@ -26,7 +26,7 @@ const Roles = props => {
             </div>
             <div className='row name'>
               <p className='label'> SUPPORT</p>
-              <p className='t hoverable'> Afromoo</p>
+              <p className='t hoverable'> Aphromoo</p>
             </div>
           </div>
 
