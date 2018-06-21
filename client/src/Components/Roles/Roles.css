@@ -1,0 +1,53 @@
+#Roles {
+  height: 500px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.50),
+    rgba(0, 0, 0, 0.50)
+    ),
+    url('/assets/img/riftmap.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-left: 220px;
+  padding-right: 150px;
+}
+
+.icon {
+  height: 62px;
+  width: 62px;
+  margin-bottom: 65px;
+  margin-top: 5px;
+  border: 1px outset  #c2a55710
+}
+
+.name {
+  margin-bottom: 57px;
+  width: 83%
+}
+
+.label {
+  font-family: 'Crimson Text', serif;
+  color: #d3c7aa;
+  padding-left: 30px;
+  margin: 0px;
+  border-bottom: 1px ridge #c2a657 ;
+  margin-bottom: 5px;
+  font-size:  18px;
+
+}
+
+.t {
+  margin: 0px;
+  padding-left: 8px;
+  height: 45px; 
+  font-family: 'Open Sans', sans-serif;
+  color: #e6dbd3;
+  font-size: 22px;
+  /* text-align: left; */
+  line-height: 45px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px inset #063f4c
+}
