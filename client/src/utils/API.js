@@ -2,19 +2,15 @@ import axios from "axios";
 
 export default {
   // Gets all Users
-  getUsers: function() {
-    return axios.get("/api/users");
+  getAllPlayers: function() {
+    return axios.get("/api/players");
   },
   // Gets the user with the given id
-  getUser: function(id) {
-    return axios.get("/api/users/" + id);
+  get: function(id) {
+    return axios.get("/api/players/" + id);
   },
-  // Deletes the User with the given id
-  deleteUser: function(id) {
-    return axios.delete("/api/users/" + id);
-  },
-  // Saves a User to the database
-  saveUser: function(UserData) {
-    return axios.post("/api/users", UserData);
-  }
+  // For saving players, not sure if needed
+  // savePlayer: function(UserData) {
+  //   return axios.post("/api/players", UserData);
+  // }
 };
