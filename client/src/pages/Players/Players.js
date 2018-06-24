@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import { Col, Row, Container } from "../../components/Grid";
-import { List, ListItem } from "../../components/List";
+import { Col, Row, Container } from "../../Components/Grid";
+import { List, ListItem } from "../../Components/List";
+import Jumbotron from "../../Components/Jumbotron";
 
 
 class Players extends Component {
@@ -13,7 +14,7 @@ class Players extends Component {
     this.loadPlayers();
   }
 
-  loadUsers = () => {
+  loadPlayers = () => {
     API.getPlayers()
       .then(res => this.setState({ players: res.data }))
       .catch(err => console.log(err));
