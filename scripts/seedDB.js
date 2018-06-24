@@ -8,9 +8,9 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/clash"
 );
 
-const userSeed = [
+const playerSeed = [
   {
-    userName: "testUser",
+    playerName: "testplayer",
     passWord: "testPassword",
     ign: "testIGN",
     rank: "diamond",
@@ -212,9 +212,9 @@ const userSeed = [
   }
 ]
 
-db.User
+db.player
   .remove({})
-  .then(() => db.User.collection.insertMany(userSeed))
+  .then(() => db.player.collection.insertMany(playerSeed))
   .then(data => {
     console.log("Seed inserted to DB!");
     process.exit(0);
