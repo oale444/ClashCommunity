@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar'
 import Roles from './Components/Roles'
 
 import Home from "./pages/Home";
+import Scheduler from "./Components/Scheduler/Scheduler";
 
 class App extends Component {
 
