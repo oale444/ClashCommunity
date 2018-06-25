@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const userSchema = new Schema({
-  userName: { type: String, required: true },
+const playerSchema = new Schema({
+  playerName: { type: String, required: true },
   passWord: { type: String, required: true },
   ign: String,
   rank: String,
@@ -21,6 +21,6 @@ const userSchema = new Schema({
   }
 });
 
-const User = mongoose.model("User", userSchema);
+const Player = mongoose.model("Player", playerSchema);
 
-module.exports = User;
+module.exports = Player;
