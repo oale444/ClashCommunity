@@ -1,0 +1,41 @@
+NPM packages & new Files added BY Olivia && changes made to server.js file
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            NPM
+		"axios"
+		"bcrypt"
+		"bcryptjs"
+		"connect-mongo"
+		"dotenv"
+		"express-session"
+		"morgan"
+		"passport"
+		"passport-google-oauth"
+		"passport-google-oauth20"
+		"passport-local"
+
+Files added for users and files for oauth strategies
+        
+            auth
+        -index.js
+            db
+        -index.js
+        -User.js
+            passport
+        -googleStrategy.js
+        -index.js
+        -localStrategy.js 
+
+
+Src components added 
+
+            components
+        -Login
+            -LogininForm.jsx
+        Header.jsx
+        Home.jsx
+        SignUpForm.jsx 
+            google_sigin_buttons
+             -google button options
+
+Minor changes made to gitignore. Slack me for the api keys!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
